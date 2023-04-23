@@ -1,8 +1,11 @@
 ## optimism-rs &nbsp;:orange_circle::o::purple_circle::white_circle::black_circle::yellow_circle::green_circle::large_blue_circle::brown_circle::red_circle:
 
 [![build](https://github.com/refcell/optimism-rs/actions/workflows/test.yml/badge.svg)](https://github.com/refcell/optimism-rs/actions/workflows/test.yml)
-[![license: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/license/mit/)
+[![license: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://opensource.org/license/mit/)
 [![chat](https://img.shields.io/badge/chat-discord-blue)](https://discord.gg/optimism)
+[![version](https://img.shields.io/badge/version-v0.1.0-ff69b4)](https://github.com/refcell/optimism-rs/releases/tag/v0.1.0)
+[![core](https://img.shields.io/badge/core-rust-orange.svg)](https://www.rust-lang.org/)
+[![contracts](https://img.shields.io/badge/contracts-huff-purple.svg)](https://github.com/huff-language/)
 
 Scaling Ethereum, but this time in rust.
 
