@@ -29,6 +29,8 @@ This is intended to be an insanely ambitious alternative implementation, written
 
 ## Navigation
 
+_NOTE: We add [op-erigon](https://github.com/testinprod-io/op-erigon) as a submodule to include alternative execution client implementations despite it not being written in rust._
+
 <pre>
 
 ├── 🟠 <a href="./magi">magi</a>: Rollup consensus-layer client.
