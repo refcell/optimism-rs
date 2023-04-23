@@ -1,10 +1,14 @@
-## optimism-rs &nbsp;:red_circle::large_blue_circle::orange_circle::purple_circle::green_circle::black_circle::white_circle::yellow_circle::o:
+## optimism-rs &nbsp;:red_circle::large_blue_circle::orange_circle::purple_circle::green_circle::black_circle::white_circle::yellow_circle::o::brown_circle:
 
 [![build](https://github.com/refcell/optimism-rs/actions/workflows/test.yml/badge.svg)](https://github.com/refcell/optimism-rs/actions/workflows/test.yml)
 [![license: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://opensource.org/license/agpl-v3/)
 [![chat](https://img.shields.io/badge/chat-discord-blue)](https://discord-gateway.optimism.io/)
 
 Scaling Ethereum, but this time in rust.
+
+> **Warning**
+>
+> This is not an official implementation. Please do not use until this warning has been removed. Only for demonstrative purposes, but open-sourced with ❤️.
 
 ## What is Optimism?
 
@@ -18,20 +22,22 @@ We'd love for you to check out [The Optimistic Vision](https://www.optimism.io/v
 
 Optimism has been open-source from the start, and the predominant implementation is developed in the [ethereum-optimism/optimism](https://github.com/ethereum-optimism/optimism) github repository, written in Go and Solidity.
 
-This is intended to be an alternative implementation, written primarily in [Rust](https://www.rust-lang.org/) and [Huff](https://huff.sh/). Hopefully, this implementation can prove to be an efficient substitute to the official implementation.
+This is intended to be an insanely ambitious alternative implementation, written primarily in [Rust](https://www.rust-lang.org/) and [Huff](https://huff.sh/). Hopefully, this implementation can prove to be an efficient substitute to the official implementation.
 
 ## Navigation
 
 <pre>
 
-├── :white_circle: <a href="./substratum">substratum</a>: Smart Contracts and Associated Tools for Optimism
-├── :black_circle: <a href="./archon">archon</a>: Service for submitting batches of transactions and results to L1
-├── :green_circle: <a href="./gas-oracle">gas-oracle [Not Implemented Yet]</a>: Service for updating L1 gas prices on L2
-├── :o: <a href="./op-reth">op-reth</a>: Execution client for post-bedrock upgrade.
-├── :orange_circle: <a href="./magi">magi</a>: rollup consensus-layer client.
-├── :yellow_circle: <a href="./varro">varro</a>: L2-Output Submitter, submits proposals to L1.
-├── :test_tube: <a href="./op-e2e">op-e2e</a>: End-to-End testing of all bedrock components in Rust.
-└── :gear: <a href="https://github.com/ethereum-optimism/optimism/tree/develop/specs">specs</a>: Specs of the rollup starting at the Bedrock upgrade [EXTERNAL].
+├── 🟠 <a href="./magi">magi</a>: Rollup consensus-layer client.
+├── ⭕ <a href="./op-reth">op-reth</a>: Reth execution client for post-bedrock upgrade (written in Golang - an alternative to op-geth and op-erigon).
+├── 🟣 <a href="./op-erigon">op-erigon</a>: Erigon execution client for post-bedrock upgrade (written in Golang - an alternative to op-geth and op-reth).
+├── ⚪ <a href="./substratum">substratum</a>: Smart Contracts and Associated Tools for Optimism.
+├── ⚫ <a href="./archon">archon</a>: Service for submitting batches of transactions and results to L1.
+├── 🟡 <a href="./varro">varro</a>: L2-Output Submitter, submits proposals to L1.
+├── 🟢 <a href="./op-e2e">op-e2e</a>: End-to-End testing of all bedrock components in Rust.
+├── 🔵 ???.
+├── 🟤 ???.
+└── 🔴 <a href="https://github.com/ethereum-optimism/optimism/tree/develop/specs">specs</a>: Specs of the rollup starting at the Bedrock upgrade [EXTERNAL].
 </pre>
 
 ## Documentation
