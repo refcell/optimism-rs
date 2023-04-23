@@ -35,15 +35,15 @@ _NOTE: We add [op-erigon](https://github.com/testinprod-io/op-erigon) as a submo
 
 <pre>
 
-├── 🟠 <a href="./magi">magi</a>: Rollup consensus-layer client.
-├── ⭕ <a href="./op-reth">op-reth</a>: Reth execution client for post-bedrock upgrade (a rust alternative to op-geth and op-erigon).
-├── 🟣 <a href="./op-erigon">op-erigon</a>: Erigon execution client for post-bedrock upgrade (a golang alternative to op-geth and op-reth).
-├── ⚪ <a href="./substratum">substratum</a>: Smart Contracts and Associated Tools for Optimism.
-├── ⚫ <a href="./archon">archon</a>: Service for submitting batches of transactions and results to L1.
-├── 🟡 <a href="./varro">varro</a>: L2-Output Submitter, submits proposals to L1.
+├── 🟠 <a href="https://github.com/a16z/magi">magi</a>: Rollup consensus-layer client.
+├── ⭕ <a href="https://github.com/clabby/op-reth">op-reth</a>: Reth execution client for post-bedrock upgrade (a rust alternative to op-geth and op-erigon).
+├── 🟣 <a href="https://github.com/testinprod-io/op-erigon">op-erigon</a>: Erigon execution client for post-bedrock upgrade (a golang alternative to op-geth and op-reth).
+├── ⚪ <a href="https://github.com/clabby/substratum">substratum</a>: Smart Contracts and Associated Tools for Optimism.
+├── ⚫ <a href="https://github.com/refcell/archon">archon</a>: Service for submitting batches of transactions and results to L1.
+├── 🟡 <a href="https://github.com/refcell/varro">varro</a>: L2-Output Submitter, submits proposals to L1.
 ├── 🟢 <a href="./op-e2e">op-e2e</a>: End-to-End testing of all bedrock components in Rust.
 ├── 🔵 ???
-├── 🟤 <a href="./op-challenger">op-challenger</a>: A challenge agent for Permissionless Output Proposals.
+├── 🟤 <a href="https://github.com/clabby/op-challenger">op-challenger</a>: A challenge agent for Permissionless Output Proposals.
 └── 🔴 <a href="https://github.com/ethereum-optimism/optimism/tree/develop/specs">specs</a>: Specs of the rollup starting at the Bedrock upgrade [EXTERNAL].
 </pre>
 
@@ -66,4 +66,3 @@ For contributing to the peripheral code in this repo, read through [CONTRIBUTING
 ## License
 
 All files within this repository are licensed under the [MIT License](https://github.com/ethereum-optimism/optimism/blob/master/LICENSE) unless explicitly stated otherwise.
-
