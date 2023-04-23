@@ -7,6 +7,8 @@
 [![core](https://img.shields.io/badge/core-rust-orange.svg)](https://www.rust-lang.org/)
 [![contracts](https://img.shields.io/badge/contracts-huff-purple.svg)](https://github.com/huff-language/)
 
+> Shoot for the moon. Even if you miss, you'll land among the stars - Norman Vincent Peale
+
 Scaling Ethereum, but this time in rust.
 
 > **Warning**
