@@ -16,3 +16,6 @@
 [submodule "op-erigon"]
 	path = op-erigon
 	url = git@github.com:testinprod-io/op-erigon.git
+[submodule "op-challenger"]
+	path = op-challenger
+	url = git@github.com:clabby/op-challenger.git

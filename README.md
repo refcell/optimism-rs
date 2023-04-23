@@ -41,7 +41,7 @@ _NOTE: We add [op-erigon](https://github.com/testinprod-io/op-erigon) as a submo
 ├── 🟡 <a href="./varro">varro</a>: L2-Output Submitter, submits proposals to L1.
 ├── 🟢 <a href="./op-e2e">op-e2e</a>: End-to-End testing of all bedrock components in Rust.
 ├── 🔵 ???
-├── 🟤 ???
+├── 🟤 <a href="./op-challenger">op-challenger</a>: A challenge agent for Permissionless Output Proposals.
 └── 🔴 <a href="https://github.com/ethereum-optimism/optimism/tree/develop/specs">specs</a>: Specs of the rollup starting at the Bedrock upgrade [EXTERNAL].
 </pre>
 
