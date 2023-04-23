@@ -32,8 +32,8 @@ This is intended to be an insanely ambitious alternative implementation, written
 <pre>
 
 ├── 🟠 <a href="./magi">magi</a>: Rollup consensus-layer client.
-├── ⭕ <a href="./op-reth">op-reth</a>: Reth execution client for post-bedrock upgrade (written in Golang - an alternative to op-geth and op-erigon).
-├── 🟣 <a href="./op-erigon">op-erigon</a>: Erigon execution client for post-bedrock upgrade (written in Golang - an alternative to op-geth and op-reth).
+├── ⭕ <a href="./op-reth">op-reth</a>: Reth execution client for post-bedrock upgrade (a rust alternative to op-geth and op-erigon).
+├── 🟣 <a href="./op-erigon">op-erigon</a>: Erigon execution client for post-bedrock upgrade (a golang alternative to op-geth and op-reth).
 ├── ⚪ <a href="./substratum">substratum</a>: Smart Contracts and Associated Tools for Optimism.
 ├── ⚫ <a href="./archon">archon</a>: Service for submitting batches of transactions and results to L1.
 ├── 🟡 <a href="./varro">varro</a>: L2-Output Submitter, submits proposals to L1.
