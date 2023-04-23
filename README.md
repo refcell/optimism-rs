@@ -1,4 +1,4 @@
-## optimism-rs &nbsp;:red_circle::large_blue_circle::orange_circle::purple_circle::green_circle::black_circle::white_circle::yellow_circle::o::brown_circle:
+## optimism-rs &nbsp;:orange_circle::o::purple_circle::white_circle::black_circle::yellow_circle::green_circle::large_blue_circle::brown_circle::red_circle:
 
 [![build](https://github.com/refcell/optimism-rs/actions/workflows/test.yml/badge.svg)](https://github.com/refcell/optimism-rs/actions/workflows/test.yml)
 [![license: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/license/mit/)
