@@ -19,3 +19,6 @@
 [submodule "op-challenger"]
 	path = op-challenger
 	url = git@github.com:clabby/op-challenger.git
+[submodule "op-e2e"]
+	path = op-e2e
+	url = git@github.com:ncitron/op-e2e.git
