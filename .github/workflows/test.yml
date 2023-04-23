@@ -7,7 +7,7 @@ env:
   JWT_SECRET: ${{ secrets.JWT_SECRET }}
 
 jobs:
-  check:
+  check-magi:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -17,11 +17,9 @@ jobs:
           toolchain: nightly
           override: true
       - uses: Swatinem/rust-cache@v2
-      - uses: actions-rs/cargo@v1
-        with:
-          command: check
+      - run: cd magi && cargo check
 
-  test:
+  test-magi:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -31,4 +29,4 @@ jobs:
           toolchain: nightly
           override: true
       - uses: Swatinem/rust-cache@v2
-      - run: cargo test --all
+      - run: cd magi && cargo test --all
