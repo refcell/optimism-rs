@@ -1,4 +1,4 @@
-## optimism-rs &nbsp;:red_circle::large_blue_circle::orange_circle::purple_circle::green_circle::black_circle::white_circle:
+## optimism-rs &nbsp;:red_circle::large_blue_circle::orange_circle::purple_circle::green_circle::black_circle::white_circle::yellow_circle::o:
 
 [![build](https://github.com/refcell/optimism-rs/actions/workflows/test.yml/badge.svg)](https://github.com/refcell/optimism-rs/actions/workflows/test.yml)
 [![license: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://opensource.org/license/agpl-v3/)
@@ -23,28 +23,15 @@ This is intended to be an alternative implementation, written primarily in [Rust
 ## Navigation
 
 <pre>
-├── <a href="./packages">packages</a>
-│   ├── <a href="./packages/common-ts">common-ts</a>: Common tools for building apps in TypeScript
-│   ├── <a href="./packages/contracts">contracts</a>: L1 and L2 smart contracts for Optimism
-│   ├── <a href="./packages/contracts-periphery">contracts-periphery</a>: Peripheral contracts for Optimism
-│   ├── <a href="./packages/core-utils">core-utils</a>: Low-level utilities that make building Optimism easier
-│   ├── <a href="./packages/data-transport-layer">data-transport-layer</a>: Service for indexing Optimism-related L1 data
-│   ├── <a href="./packages/chain-mon">chain-mon</a>: Chain monitoring services
-│   ├── <a href="./packages/fault-detector">fault-detector</a>: Service for detecting Sequencer faults
-│   ├── <a href="./packages/message-relayer">message-relayer</a>: Tool for automatically relaying L1<>L2 messages in development
-│   ├── <a href="./packages/replica-healthcheck">replica-healthcheck</a>: Service for monitoring the health of a replica node
-│   └── <a href="./packages/sdk">sdk</a>: provides a set of tools for interacting with Optimism
-├── <a href="./batch-submitter">batch-submitter</a>: Service for submitting batches of transactions and results to L1
-├── <a href="./bss-core">bss-core</a>: Core batch-submitter logic and utilities
-├── <a href="./gas-oracle">gas-oracle</a>: Service for updating L1 gas prices on L2
-├── <a href="./indexer">indexer</a>: indexes and syncs transactions
-├── <a href="./infra/op-replica">infra/op-replica</a>: Deployment examples and resources for running an Optimism replica
-├── <a href="./integration-tests">integration-tests</a>: Various integration tests for the Optimism network
-├── <a href="./l2geth">l2geth</a>: Optimism client software, a fork of <a href="https://github.com/ethereum/go-ethereum/tree/v1.9.10">geth v1.9.10</a>  (deprecated for BEDROCK upgrade)
-├── <a href="./l2geth-exporter">l2geth-exporter</a>: A prometheus exporter to collect/serve metrics from an L2 geth node
-├── <a href="./op-exporter">op-exporter</a>: A prometheus exporter to collect/serve metrics from an Optimism node
-├── <a href="./proxyd">proxyd</a>: Configurable RPC request router and proxy
-└── <a href="./technical-documents">technical-documents</a>: audits and post-mortem documents
+
+├── :white_circle: <a href="./substratum">substratum</a>: Smart Contracts and Associated Tools for Optimism
+├── :black_circle: <a href="./archon">archon</a>: Service for submitting batches of transactions and results to L1
+├── :green_circle: <a href="./gas-oracle">gas-oracle [Not Implemented Yet]</a>: Service for updating L1 gas prices on L2
+├── :o: <a href="./op-reth">op-reth</a>: Execution client for post-bedrock upgrade.
+├── :orange_circle: <a href="./magi">magi</a>: rollup consensus-layer client.
+├── :yellow_circle: <a href="./varro">varro</a>: L2-Output Submitter, submits proposals to L1.
+├── :test_tube: <a href="./op-e2e">op-e2e</a>: End-to-End testing of all bedrock components in Rust.
+└── :gear: <a href="https://github.com/ethereum-optimism/optimism/tree/develop/specs">specs</a>: Specs of the rollup starting at the Bedrock upgrade [EXTERNAL].
 </pre>
 
 ## Documentation

@@ -1,0 +1,15 @@
+[submodule "magi"]
+	path = magi
+	url = git@github.com:a16z/magi.git
+[submodule "archon"]
+	path = archon
+	url = git@github.com:refcell/archon.git
+[submodule "varro"]
+	path = varro
+	url = git@github.com:refcell/varro.git
+[submodule "op-reth"]
+	path = op-reth
+	url = git@github.com:clabby/op-reth.git
+[submodule "substratum"]
+	path = substratum
+	url = git@github.com:clabby/substratum.git
