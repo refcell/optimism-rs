@@ -1,8 +1,8 @@
 ## optimism-rs &nbsp;:red_circle::large_blue_circle::orange_circle::purple_circle::green_circle::black_circle::white_circle::yellow_circle::o::brown_circle:
 
 [![build](https://github.com/refcell/optimism-rs/actions/workflows/test.yml/badge.svg)](https://github.com/refcell/optimism-rs/actions/workflows/test.yml)
-[![license: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://opensource.org/license/agpl-v3/)
-[![chat](https://img.shields.io/badge/chat-discord-blue)](https://discord-gateway.optimism.io/)
+[![license: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/license/mit/)
+[![chat](https://img.shields.io/badge/chat-discord-blue)](https://discord.gg/optimism)
 
 Scaling Ethereum, but this time in rust.
 
@@ -35,8 +35,8 @@ This is intended to be an insanely ambitious alternative implementation, written
 ├── ⚫ <a href="./archon">archon</a>: Service for submitting batches of transactions and results to L1.
 ├── 🟡 <a href="./varro">varro</a>: L2-Output Submitter, submits proposals to L1.
 ├── 🟢 <a href="./op-e2e">op-e2e</a>: End-to-End testing of all bedrock components in Rust.
-├── 🔵 ???.
-├── 🟤 ???.
+├── 🔵 ???
+├── 🟤 ???
 └── 🔴 <a href="https://github.com/ethereum-optimism/optimism/tree/develop/specs">specs</a>: Specs of the rollup starting at the Bedrock upgrade [EXTERNAL].
 </pre>
 
